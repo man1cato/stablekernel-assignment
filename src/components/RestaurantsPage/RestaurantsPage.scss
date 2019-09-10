@@ -1,0 +1,27 @@
+.restaurants-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.header {
+   display: flex;
+   color: #F96843;
+   height: 75px;
+   width: 100%;
+   padding-top: 20px;
+   img {
+      flex: 140px 0 1;
+      height: 100%;
+      object-fit: contain;
+      margin-right: 0.5rem;
+   }
+}
+.header__title {
+   flex-shrink: 1;
+   padding-right: 2rem;
+   h1 {
+      margin: 0;
+   }
+}
